@@ -32,12 +32,14 @@ int main()
 	int pnumber;
 	string pname;
 	string problem;
+
 	for (int i = 0; i < m; i++)
 	{
 		cin >> problem;
 
 		if (isNumber(problem))
 		{
+			auto it = int_key.find(int(stoi(pname)));
 		}
 	}
 }
